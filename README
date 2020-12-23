@@ -1,0 +1,6 @@
+# README
+Program to export height profile between two points as an STL perhaps
+
+## Teszt adat
+Teszt adat forrása:
+https://maps.googleapis.com/maps/api/elevation/json?path=36.578581,-118.291994|36.23998,-116.83171&samples=200&key=AIzaSyDxnqT4xEaL0g26SXHyAkLsbHz786GKrE4
