@@ -1,7 +1,7 @@
+import math
+from typing import List
 import simplejson as json
 import stl
-
-from typing import List
 
 # Budapest: 47.496215, 19.033440
 # Pécs: 46.079573, 18.234001
@@ -53,4 +53,4 @@ if __name__ == "__main__":
     # elevations = elev_from_json(filename)
     elevations = elev_from_gpx("gpx/Dobog_k_.gpx")
     print(len(elevations))
-    create_model(elevations, "from_gpx.stl")
+    #create_model(elevations, "from_gpx.stl")
